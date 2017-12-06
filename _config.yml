@@ -1,0 +1,113 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Anton Lebed - Design Lead
+email: anton@lebed.works
+description: Designer & thinker working in Product, UI, UX & Interaction Design
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.lebed.works" # the base hostname & protocol for your site, e.g. http://example.com
+author: Anton Lebed
+publisher: Anton Lebed
+
+social:
+  name: Anton Lebed
+  links:
+    - https://twitter.com/ntnlbd
+    - https://www.linkedin.com/in/ntnlbd
+    - https://github.com/ntnlbd
+    - https://www.instagram.com/ntnlbd
+    - https://www.behance.net/ntnlbd
+    - https://medium.com/@ntnlbd
+
+# Build settings
+markdown: kramdown
+
+
+
+livereload: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - amp-jekyll
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+navigation:
+  - text: About
+    url: /index.html
+  - text: Résumé
+    url: /resume.html
+  - text: work
+    url: /work.html
+  - text: Contact
+    url: /contact.html
+
+positions:
+  - title: Product Design and UX Lead
+    company: EMOTIV
+    location: Hanoi, Vietnam | San Francisco, USA
+    years: "Nov 2016 – Present"
+  - title: Product Design and UX Lead
+    company: Sysnet Global Solutions
+    location: Dublin, Ireland | Melbourne, Australia
+    years: "May 2013 – Jun 2016"
+  - title: UI/UX Designer
+    company: Helix Health
+    location: Dublin, Ireland
+    years: "Jul 2012 – Jun 2013"
+  - title: Art Director
+    company: Vision 2030
+    location: Dublin, Ireland
+    years: "Jan 2010 – Jan 2012"
+  - title: Senior Concept Designer
+    company: Arxim Ukraine (Contract)
+    location: Kiev / Odessa, Ukraine | Moscow, Russia
+    years: "Nov 2010 – Jul 2011"
+  - title: Graphic Designer
+    company: C.E.0. Financial Magazine
+    location: Dublin, Ireland
+    years: Oct 2006 – Mar 2011
+
+projects:
+  - title: Co-founder
+    company: Whats Up Hanoi!?
+  - title: Founder
+    company: pockedrones.com
+  - title: Co-founder
+    company: casestudy.rocks
+  - title: Founder
+    company: Satta Massa Ganna
+  - title: UX Consultant
+    company: intelluni.com
+  - title: Founding member / UX Lead
+    company: Somonials
+  - title: Founding member / UX Lead
+    company: Skillclout
+
+education:
+  - title: BA in Visual Communication
+    uni: "Dún Laoghaire Institute of Art, Design and Technology"
+  - title: HND in Graphic Design & Illustration
+    uni: "Ballyfermot College of Further Education"
+  - title: Diploma in Animation Drawing Studies
+    uni: "Ballyfermot College of Further Education"
+  - title: Certificate in Human-Computer Interaction
+    uni: coursera.org
+  - title: Certificate in Gamification
+    uni: coursera.org

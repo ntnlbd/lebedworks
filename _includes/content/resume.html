@@ -1,0 +1,38 @@
+<div class="item">
+<h2>Companies:</h2>
+<ul>
+  {% for item in site.positions %}
+    <li>
+      <div class="company">{{item.company}} </div>
+      <div class="role">{{item.title}}</div>
+      <div class="role">{{item.location}}</div>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+
+<div class="item">
+<h2>Projects:</h2>
+<ul>
+  {% for item in site.projects %}
+    <li>
+      <div class="company">{{item.company}} </div>
+      <div class="role">{{item.title}}</div>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+
+<div class="item">
+<h2>Education:</h2>
+<ul>
+  {% for item in site.education %}
+    <li>
+      <div class="company">{{item.title}} </div>
+      <div class="role">{{item.uni}}</div>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+
+<a class="btn" href="file.pdf">Download Full Resume (PDF)</a>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="197px" viewBox="0 0 92 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Social-media" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mark" transform="translate(45.000000, 98.500000) rotate(-180.000000) translate(-45.000000, -98.500000) " stroke="#EE4545">
+            <path d="M21.6486766,164.005784 C39.8772679,171.931801 61.0797671,163.579915 69.0057842,145.351323 C76.9318013,127.122732 68.5799147,105.920233 50.3513234,97.9942158 C32.1227321,90.0681987 10.9202329,98.4200853 2.99421579,116.648677 C-4.93180127,134.877268 3.42008531,156.079767 21.6486766,164.005784 L21.6486766,164.005784 Z" id="Oval-1" stroke-width="3"></path>
+            <path d="M89.5,0.5 L7.5,196.5" id="Line" stroke-linecap="square"></path>
+            <path d="M35.5,131.5 L89.5,154.5" id="Line" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

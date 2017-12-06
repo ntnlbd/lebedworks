@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="315px" height="541px" viewBox="0 0 315 541" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>menu.svg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Social-media" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" stroke="#FF7876">
+            <g id="menu.svg">
+                <ellipse id="Oval-4" cx="101" cy="447" rx="54" ry="37"></ellipse>
+                <ellipse id="Oval-4" cx="186" cy="129" rx="89" ry="61"></ellipse>
+                <path d="M0.5,306.5 L312.5,0.5" id="Line-2" stroke-linecap="square"></path>
+                <path d="M187.5,124.5 L311.5,179.5" id="Line-3" stroke-linecap="square"></path>
+                <path d="M0.5,540.5 L311.5,221.5" id="Line-2" stroke-linecap="square"></path>
+                <path d="M94.5,444.5 L314.5,538.5" id="Line-3" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

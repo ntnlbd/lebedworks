@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="page-{{page.slug}}">
+
+    <div class="mark"></div>
+    <div class="body">
+
+      {% include header.html %}
+
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          <article class="{{page.slug}}" itemscope itemtype="{{page.itemtype}}">
+            {{ content }}
+          </article>
+        </div>
+      </main>
+
+    </div>
+
+  </body>
+
+</html>
