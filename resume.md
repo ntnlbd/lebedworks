@@ -5,6 +5,7 @@
 layout: default
 title: Résumé
 order: 2
+slug: resume
 itemtype: "http://schema.org/ProfilePage"
 slug: resume
 ---

@@ -50,7 +50,7 @@ exclude:
 
 navigation:
   - text: About
-    url: /index.html
+    url: /
   - text: Résumé
     url: /resume.html
   - text: work

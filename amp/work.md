@@ -1,10 +1,9 @@
 ---
 layout: amp
-title: Résumé
-order: 2
-url: /resume
-slug: resume
-itemtype: "http://schema.org/ProfilePage"
+title: work
+order: 3
+slug: work
+itemtype: "http://schema.org/CreativeWork"
 ---
 
 {% include content/work.html %}

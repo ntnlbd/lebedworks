@@ -1,23 +1,14 @@
 /**
  * Body wrap
  */
+body{
+  background-color: #f4f4f4;
+  -webkit-tap-highlight-color: rgba($brand-color-2, 0.72);
+}
+
 
 .body{
   display: flex;
-
-  @include media-query($on-palm){
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    overflow-scrolling: touch;
-    background-color: #f4f4f4;
-    -webkit-tap-highlight-color: rgba($brand-color-2, 0.72);
-  }
-
 }
 
 article{
@@ -263,6 +254,7 @@ article{
       bottom: 0px;
       left: 0px;
       padding-top: $spacing-unit * 10;
+      padding-left: 0;
       background-color: $brand-color;
       background-image: url('../img/menu.svg');
       background-size: 100% 100%;
@@ -365,5 +357,26 @@ article{
 
   @include media-query($on-palm) {
     display: none;
+  }
+}
+
+
+.page-contact, .page-work{
+
+  br{
+    display: none;
+    visibility: hidden;
+  }
+
+  @include media-query($on-palm) {
+    p{
+      font-size: 1.6em;
+      line-height: 1.5em;
+    }
+
+    br{
+      display: unset;
+      visibility: visible;
+    }
   }
 }

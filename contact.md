@@ -5,6 +5,7 @@
 layout: default
 title: connect
 order: 4
+slug: contact
 itemtype: "http://schema.org/ContactPage"
 ---
 
