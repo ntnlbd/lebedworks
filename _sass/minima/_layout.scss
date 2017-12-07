@@ -361,7 +361,7 @@ article{
 }
 
 
-.page-contact, .page-work{
+.page-contact, .page-work {
 
   br{
     display: none;
@@ -375,7 +375,21 @@ article{
     }
 
     br{
-      display: unset;
+      display: inline-block;
+      visibility: visible;
+    }
+  }
+}
+
+.page-about, .page-resume{
+  br{
+    display: none;
+    visibility: hidden;
+  }
+
+  @include media-query($on-palm) {
+    br{
+      display: inline-block;
       visibility: visible;
     }
   }
