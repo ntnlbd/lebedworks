@@ -35,8 +35,6 @@ social:
 # Build settings
 markdown: kramdown
 
-
-
 livereload: true
 
 plugins:
