@@ -44,8 +44,6 @@ $on-laptop:        1024px !default;
   font-size: $base-font-size * $ratio;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Anton|Corben:400,700&subset=latin-ext');
-
 // Import partials.
 @import
   "animatecss/animate",
