@@ -8,14 +8,6 @@
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Anton|Corben:400,700&amp;subset=latin-ext" rel="stylesheet">
   {% else if jekyll.environment == 'production'%}
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/11/webfont.js"></script>
-  <script>
-    WebFont.load({
-      google: {
-        families: ['Corben', 'Anton']
-      }
-    });
-  </script>
     <style amp-custom>
       {% include main.css %}
     </style>
