@@ -394,3 +394,8 @@ article{
     }
   }
 }
+
+
+.about{
+  @include fadeInUp();
+}

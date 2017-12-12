@@ -4,14 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
 
-  {% if jekyll.environment == 'development' %}
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Corben:400,700&amp;subset=latin-ext" rel="stylesheet">
-  {% else if jekyll.environment == 'production'%}
-    <style amp-custom>
-      {% include main.css %}
-    </style>
-  {% endif %}
+
+  <link href="https://fonts.googleapis.com/css?family=Anton|Corben:400,700&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <link rel="amphtml" href="{{ page.url | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
