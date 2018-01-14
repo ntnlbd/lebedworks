@@ -362,7 +362,8 @@ article {
     .site-header {
       min-height: 55.95px;
       position: fixed;
-      width: 100%; } }
+      width: 100%;
+      z-index: 999999; } }
 
 .site-title {
   font-size: 26px;
@@ -618,5 +619,50 @@ article {
     font-size: 1.6em;
     line-height: 1.5em; }
   .page-contact br, .page-work br {
-    display: unset;
+    display: inline-block;
     visibility: visible; } }
+
+.page-about br, .page-resume br {
+  display: none;
+  visibility: hidden; }
+@media screen and (max-width: 768px) {
+  .page-about br, .page-resume br {
+    display: inline-block;
+    visibility: visible; } }
+
+.about {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -ms-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -ms-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden; }
