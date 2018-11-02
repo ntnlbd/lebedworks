@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: work
+permalink: /work
 order: 3
 slug: work
 itemtype: "http://schema.org/CreativeWork"

@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 title: connect
+permalink: /contact
 order: 4
 slug: contact
 itemtype: "http://schema.org/ContactPage"

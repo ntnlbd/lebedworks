@@ -51,11 +51,11 @@ navigation:
   - text: About
     url: /
   - text: Résumé
-    url: /resume.html
+    url: /resume
   - text: work
-    url: /work.html
+    url: /work
   - text: Contact
-    url: /contact.html
+    url: /contact
 
 positions:
   - title: Product Design and UX Lead

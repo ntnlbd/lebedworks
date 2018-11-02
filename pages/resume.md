@@ -3,10 +3,11 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: about
-order: 1
-slug: about
-itemtype: "http://schema.org/Person"
+title: Résumé
+permalink: /resume
+order: 2
+slug: resume
+itemtype: "http://schema.org/ProfilePage"
 ---
 
-{% include content/about.html%}
+{% include content/resume.html%}
