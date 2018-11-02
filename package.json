@@ -1,0 +1,24 @@
+{
+  "name": "lebedworks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-watch": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntnlbd/lebedworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntnlbd/lebedworks/issues"
+  },
+  "homepage": "https://github.com/ntnlbd/lebedworks#readme"
+}

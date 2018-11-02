@@ -45,6 +45,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - _includes/main.css
 
 navigation:
   - text: About
