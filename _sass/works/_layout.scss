@@ -2,7 +2,8 @@
  * Body wrap
  */
 body{
-  background-color: #f4f4f4;
+  // background-color: #f4f4f4;
+  background-color: shade(#ffbb52, 60%);
   -webkit-tap-highlight-color: rgba($brand-color-2, 0.72);
 }
 
