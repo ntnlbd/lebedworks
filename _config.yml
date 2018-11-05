@@ -50,6 +50,8 @@ exclude:
   - gulpfile.js
   - package-lock.json
   - package.json
+  - _sass/bourbon
+  - _sass/neat
 
 navigation:
   - text: About
