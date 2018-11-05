@@ -46,8 +46,8 @@ $on-laptop:        1024px !default;
 
 // Import partials.
 @import
-  "bourbon/bourbon",
-  "neat/neat",
+  "bourbon/_bourbon.scss",
+  "neat/_neat.scss",
   "animatecss/animate",
   "works/base",
   "works/layout"
