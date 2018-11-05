@@ -46,6 +46,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _includes/main.css
+  - node_modules
+  - gulpfile.js
+  - package-lock.json
+  - package.json
 
 navigation:
   - text: About
